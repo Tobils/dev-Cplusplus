@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dev-tobil/Documents/dev-c++/Day1
+CMAKE_SOURCE_DIR = /Users/dev-tobil/Documents/dev-Cplusplus/Day1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dev-tobil/Documents/dev-c++/Day1/build
+CMAKE_BINARY_DIR = /Users/dev-tobil/Documents/dev-Cplusplus/Day1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles /Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles /Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Day1/fast:
 	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/build
 .PHONY : Day1/fast
 
-src/main.o: src/main.cpp.o
+src/squareroot.o: src/squareroot.cpp.o
 
-.PHONY : src/main.o
+.PHONY : src/squareroot.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/squareroot.cpp.o:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.o
+.PHONY : src/squareroot.cpp.o
 
-src/main.i: src/main.cpp.i
+src/squareroot.i: src/squareroot.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/squareroot.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/squareroot.cpp.i:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.i
+.PHONY : src/squareroot.cpp.i
 
-src/main.s: src/main.cpp.s
+src/squareroot.s: src/squareroot.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/squareroot.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/squareroot.cpp.s:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.s
+.PHONY : src/squareroot.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Day1"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/squareroot.o"
+	@echo "... src/squareroot.i"
+	@echo "... src/squareroot.s"
 .PHONY : help
 
 

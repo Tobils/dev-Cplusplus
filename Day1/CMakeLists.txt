@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(Day1)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/squareroot.cpp)
 
 # SET(CMAKE_SHARED_LINKER_FLAGS  "${CMAKE_SHARED_LINKER_FLAGS} -Wl,-rpath,'$ORIGIN/lib'" )
 # set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/bin)

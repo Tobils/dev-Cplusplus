@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Day1.dir/src/main.cpp.o  -o ../bin/Day1 
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Day1.dir/src/squareroot.cpp.o  -o ../bin/Day1 
