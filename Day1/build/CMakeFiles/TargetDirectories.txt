@@ -1,0 +1,3 @@
+/Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles/rebuild_cache.dir
+/Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles/edit_cache.dir
+/Users/dev-tobil/Documents/dev-c++/Day1/build/CMakeFiles/Day1.dir
