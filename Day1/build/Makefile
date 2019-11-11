@@ -123,32 +123,32 @@ Day1/fast:
 	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/build
 .PHONY : Day1/fast
 
-src/squareroot.o: src/squareroot.cpp.o
+src/factorial.o: src/factorial.cpp.o
 
-.PHONY : src/squareroot.o
+.PHONY : src/factorial.o
 
 # target to build an object file
-src/squareroot.cpp.o:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.o
-.PHONY : src/squareroot.cpp.o
+src/factorial.cpp.o:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/factorial.cpp.o
+.PHONY : src/factorial.cpp.o
 
-src/squareroot.i: src/squareroot.cpp.i
+src/factorial.i: src/factorial.cpp.i
 
-.PHONY : src/squareroot.i
+.PHONY : src/factorial.i
 
 # target to preprocess a source file
-src/squareroot.cpp.i:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.i
-.PHONY : src/squareroot.cpp.i
+src/factorial.cpp.i:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/factorial.cpp.i
+.PHONY : src/factorial.cpp.i
 
-src/squareroot.s: src/squareroot.cpp.s
+src/factorial.s: src/factorial.cpp.s
 
-.PHONY : src/squareroot.s
+.PHONY : src/factorial.s
 
 # target to generate assembly for a file
-src/squareroot.cpp.s:
-	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/squareroot.cpp.s
-.PHONY : src/squareroot.cpp.s
+src/factorial.cpp.s:
+	$(MAKE) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/src/factorial.cpp.s
+.PHONY : src/factorial.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Day1"
-	@echo "... src/squareroot.o"
-	@echo "... src/squareroot.i"
-	@echo "... src/squareroot.s"
+	@echo "... src/factorial.o"
+	@echo "... src/factorial.i"
+	@echo "... src/factorial.s"
 .PHONY : help
 
 

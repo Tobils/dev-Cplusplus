@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/squareroot.cpp" "/Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles/Day1.dir/src/squareroot.cpp.o"
+  "/Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/factorial.cpp" "/Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles/Day1.dir/src/factorial.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/Day1"
   "../bin/Day1.pdb"
-  "CMakeFiles/Day1.dir/src/squareroot.cpp.o"
+  "CMakeFiles/Day1.dir/src/factorial.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

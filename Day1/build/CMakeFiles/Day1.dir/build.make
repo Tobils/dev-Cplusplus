@@ -57,27 +57,27 @@ include CMakeFiles/Day1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Day1.dir/flags.make
 
-CMakeFiles/Day1.dir/src/squareroot.cpp.o: CMakeFiles/Day1.dir/flags.make
-CMakeFiles/Day1.dir/src/squareroot.cpp.o: ../src/squareroot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Day1.dir/src/squareroot.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day1.dir/src/squareroot.cpp.o -c /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/squareroot.cpp
+CMakeFiles/Day1.dir/src/factorial.cpp.o: CMakeFiles/Day1.dir/flags.make
+CMakeFiles/Day1.dir/src/factorial.cpp.o: ../src/factorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Day1.dir/src/factorial.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day1.dir/src/factorial.cpp.o -c /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/factorial.cpp
 
-CMakeFiles/Day1.dir/src/squareroot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Day1.dir/src/squareroot.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/squareroot.cpp > CMakeFiles/Day1.dir/src/squareroot.cpp.i
+CMakeFiles/Day1.dir/src/factorial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Day1.dir/src/factorial.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/factorial.cpp > CMakeFiles/Day1.dir/src/factorial.cpp.i
 
-CMakeFiles/Day1.dir/src/squareroot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Day1.dir/src/squareroot.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/squareroot.cpp -o CMakeFiles/Day1.dir/src/squareroot.cpp.s
+CMakeFiles/Day1.dir/src/factorial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Day1.dir/src/factorial.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dev-tobil/Documents/dev-Cplusplus/Day1/src/factorial.cpp -o CMakeFiles/Day1.dir/src/factorial.cpp.s
 
 # Object files for target Day1
 Day1_OBJECTS = \
-"CMakeFiles/Day1.dir/src/squareroot.cpp.o"
+"CMakeFiles/Day1.dir/src/factorial.cpp.o"
 
 # External object files for target Day1
 Day1_EXTERNAL_OBJECTS =
 
-../bin/Day1: CMakeFiles/Day1.dir/src/squareroot.cpp.o
+../bin/Day1: CMakeFiles/Day1.dir/src/factorial.cpp.o
 ../bin/Day1: CMakeFiles/Day1.dir/build.make
 ../bin/Day1: CMakeFiles/Day1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dev-tobil/Documents/dev-Cplusplus/Day1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Day1"
