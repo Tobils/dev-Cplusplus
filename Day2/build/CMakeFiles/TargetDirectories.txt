@@ -1,0 +1,8 @@
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/CMakeFiles/rebuild_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/CMakeFiles/edit_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/server/CMakeFiles/rebuild_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/server/CMakeFiles/edit_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/server/CMakeFiles/websockets-server.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/client/CMakeFiles/rebuild_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/client/CMakeFiles/edit_cache.dir
+/Users/dev-tobil/Documents/dev-Cplusplus/Day2/build/client/CMakeFiles/websockets-client.dir
