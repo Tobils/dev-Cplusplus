@@ -3,6 +3,7 @@
 ## server
 
 ## client
+* mengirim data serial dari 1 s.d N
 
 notes :
 * pelajari websocket
